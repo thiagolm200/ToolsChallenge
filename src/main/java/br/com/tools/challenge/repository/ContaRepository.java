@@ -8,6 +8,5 @@ import br.com.tools.challenge.entity.ContaEntity;
 
 public interface ContaRepository extends JpaRepository<ContaEntity, Long>{
 
-	
 	public Optional<ContaEntity> findByCartao(String cartao);
 }
